@@ -40,10 +40,13 @@ I chose the domain of student experiences and reviews about Georgia State Univer
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
+300 words
 
 **Overlap:**
+50 words
 
 **Reasoning:**
+I will split documents into chunks of approximately 300 words with an overlap of 50 words. This size is large enough to preserve the context of student reviews and discussion posts while still allowing the retrieval system to find specific information about professors, courses, and the computer science program. My document collection contains a mix of short reviews, Reddit discussions, and longer university information pages. Using overlapping chunks helps prevent important information from being separated when a key idea appears near the boundary between two chunks. If chunks are too small, retrieval may miss important context and return incomplete answers. If chunks are too large, retrieval may return irrelevant information and make it harder to find the most relevant content for a user's question.
 
 ---
 
@@ -56,10 +59,13 @@ I chose the domain of student experiences and reviews about Georgia State Univer
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
+all-MiniLM-L6-v2 via sentence-transformers
 
 **Top-k:**
+Top 5 most relevant chunks
 
 **Production tradeoff reflection:**
+If I were deploying this system for real users and cost was not a concern, I would consider larger embedding models that provide higher retrieval accuracy, better support for longer documents, and stronger performance on domain-specific or multilingual text, while balancing latency and computational requirements.
 
 ---
 
@@ -72,11 +78,11 @@ I chose the domain of student experiences and reviews about Georgia State Univer
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about the quality of Georgia State University's Computer Science program? | Students generally describe the CS program more positively than its reputation suggests. Several students believe that success in the program depends heavily on personal effort, participation, and taking advantage of opportunities such as office hours, research, and internships. They also mention that upper-level professors tend to be better and that the program prepares students well for software engineering careers. | 
+| 2 | What issues do students report about Tushara Sadasivuni’s Software Development class? | Students report that the class is disorganized, lectures are read directly from slides, labs can be difficult without prior Java experience, and instructions are sometimes missing or unclear. Some also mention TAs arriving late and inconsistent lab guidance. |
+| 3 | Which CS professor is most consistently praised in student discussions, and what qualities are mentioned? | William Johnson is the most consistently praised professor, with students describing him as passionate, caring, fair, and effective at teaching. He is frequently mentioned as a top choice among CS instructors at Georgia State. |
+| 4 | What are the main requirements students must complete before they can take upper-level CS courses (CSC 2720 and above)? | Students must earn a C or higher in CSC 1301 and CSC 1301L, and complete either CSC 2510 or MATH 2420, plus a required math course (such as MATH 1113, MATH 2211, MATH 2212, or MATH 2215). They must also achieve a 2.5 GPA across these initial courses to become eligible for upper-level CS classes. |
+| 5 | What are two advanced CS elective topics listed in the catalog? | Artificial Intelligence (CSC 4810), Machine Learning (CSC 4850), Cloud Computing (CSC 4311), and Big Data Programming (CSC 4760). |
 
 ---
 
@@ -86,9 +92,9 @@ I chose the domain of student experiences and reviews about Georgia State Univer
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Some of the Reddit and review sources contain noisy or inconsistent information, including opinions, sarcasm, and off-topic comments. This could make it difficult for the retrieval system to consistently extract accurate or relevant chunks, leading to mixed or biased answers depending on which comments are retrieved.
 
-2.
+2. Important information may be split across chunk boundaries, especially in longer Reddit threads or official catalog pages. If chunking is not aligned well with how information is structured, the model may miss key context or fail to combine related details, resulting in incomplete or incorrect responses.
 
 ---
 
@@ -99,6 +105,8 @@ I chose the domain of student experiences and reviews about Georgia State Univer
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+![Architecture diagram](architecture_diagram.png)
 
 ---
 
