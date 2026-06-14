@@ -1,0 +1,569 @@
+Name
+Department
+Title
+Email
+
+Akbas, Esra
+
+Computer Science
+
+Associate Professor
+eakbas1@gsu.edu
+
+
+Alser, Mohammed
+
+Computer Science
+
+Assistant Professor
+malser@gsu.edu
+
+Angryk, Rafal
+
+Computer Science, Physics and Astronomy
+
+Distinguished University Professor
+rangryk@gsu.edu
+
+
+Ashok, Ashwin
+
+Computer Science, Neuroscience
+
+Associate Professor, Associate Director of Graduate Studies
+aashok@gsu.edu
+
+
+Aydın, Berkay
+
+Computer Science
+
+Assistant Professor
+baydin2@gsu.edu
+
+
+Babaie, Hassan
+
+Computer Science, Geosciences
+
+Associate Professor
+hbabaie@gsu.edu
+
+
+Bal, Abdullah
+
+Computer Science
+
+Senior Lecturer
+abal@gsu.edu
+
+Bales, Carol
+
+Computer Science
+
+Part-Time Instructor
+cbales1@gsu.edu
+
+
+Bourgeois, Anu
+
+Computer Science
+
+Professor
+abourgeois@cs.gsu.edu
+
+
+Cai, Zhipeng
+
+Computer Science, Neuroscience
+
+Professor
+zcai@gsu.edu
+
+
+Cao, Xiaojun
+
+Computer Science
+
+Professor Director of Graduate Studies
+cao@gsu.edu
+
+
+Casturi, Rao
+
+Computer Science
+
+Part-Time Instructor
+ncasturi1@gsu.edu
+
+
+Chamarajnagar, Ravishankar
+
+Computer Science
+
+Asst Professor, Adjunct
+rchamarajnagar1@gsu.edu
+
+
+Chen, Guantao
+
+Computer Science, Mathematics and Statistics, Neuroscience
+
+Regents' Professor
+gchen@gsu.edu
+
+
+Dogdu, Erdogan
+
+Computer Science
+
+Asst. Adjunct Professor
+erdogan.dogdu@angelo.edu
+
+
+Dudley, Tammie
+
+Computer Science
+
+Department Specialist
+tdudley@gsu.edu
+
+
+Gao, Chunlan
+
+Computer Science
+
+Lecturer
+cgao8@gsu.edu
+
+
+Harrison, Robert
+
+Biology, Computer Science
+
+Emeritus, Professor
+rharrison@cs.gsu.edu
+
+Hawamdeh, Faris
+
+Computer Science
+
+Acad Professional
+fhawamdeh1@gsu.edu
+
+
+Hayes, Jamie
+
+Computer Science
+
+Academic Program Coordinator
+jhayes14@gsu.edu
+
+
+He, Xiaochun
+
+Computer Science, Physics and Astronomy
+
+Regents' Professor
+xhe@gsu.edu
+
+
+Henry, Louis
+
+Computer Science
+
+Instructor
+lhenry@cs.gsu.edu
+
+Hillegass, Aaron
+
+Computer Science
+
+Part-Time Instructor
+dhillegass@gsu.edu
+
+
+Hosseini, Roya
+
+Computer Science
+
+Lecturer
+ahosseini3@gsu.edu
+
+
+Hu, Xiaolin
+
+Computer Science, Neuroscience
+
+Professor, Director of Undergraduate Studies
+xhu@cs.gsu.edu
+
+
+Iraji, Armin
+
+Computer Science, Mathematics and Statistics, Neuroscience
+
+Assistant Professor
+airaji@gsu.edu
+
+
+Islam, S M Towhidul
+
+Computer Science
+
+Lecturer
+sislam9@gsu.edu
+
+James, David
+
+Computer Science
+
+Acad Professional
+djames56@gsu.edu
+
+
+Jiang, Yili
+
+Computer Science
+
+Assistant Professor
+yjiang27@gsu.edu
+
+
+Johnson, William Gregory
+
+Computer Science
+
+Senior Lecturer Associate Director, Undergraduate Studies
+wjohnson6@gsu.edu
+
+Joseph, Robert
+
+Computer Science
+
+Part-Time Instructor
+rjoseph25@gsu.edu
+
+
+Kempton, Dustin
+
+Computer Science
+
+Asst Professor Research
+dkempton1@cs.gsu.edu
+
+
+King, K. N.
+
+Computer Science
+
+Emeritus, Assoc. Professor
+knking@gsu.edu
+
+
+Kong, Jun
+
+Computer Science, Mathematics and Statistics
+
+Associate Professor
+jkong@gsu.edu
+
+
+Kubek, Mario
+
+Computer Science
+
+Assistant Professor
+mkubek@gsu.edu
+
+
+Kuzmin, Kiril
+
+Computer Science
+
+Lecturer
+kkuzmin1@gsu.edu
+
+
+Lee, Yoon Jae
+
+Computer Science
+
+Assistant Professor
+yoonlee@gsu.edu
+
+
+Li, Yingshu
+
+Computer Science
+
+Professor
+yili@gsu.edu
+
+
+Li, Wei (Lisa)
+
+Computer Science
+
+Associate Professor, Associate Director of Graduate Studies
+wli28@gsu.edu
+
+
+Liu, Jingyu
+
+Computer Science, Neuroscience
+
+Associate Professor
+jliu75@gsu.edu
+
+
+Maimon, David
+
+Computer Science, Department of Criminal Justice & Criminology
+
+Professor Director, Evidence Based Cybersecurity Research Group
+Dmaimon@gsu.edu
+
+Mandas, Freida
+
+Computer Science
+
+Department Specialist
+fmandas@gsu.edu
+
+
+Mikler, Armin
+
+Computer Science
+
+Professor and Chair
+amikler@gsu.edu
+
+
+Miller, Robyn
+
+Computer Science, Mathematics and Statistics, Neuroscience
+
+Assistant Professor
+rmiller86@gsu.edu
+
+
+Nemira, Alina
+
+Computer Science
+
+Lecturer
+anemira1@gsu.edu
+
+
+Owen, G. Scott
+
+Computer Science
+
+Emeritus, Professor
+sowen@cs.gsu.edu
+
+
+Pan, Yi
+
+Computer Science
+
+Emeritus, Regents Professor
+yipan@gsu.edu
+
+
+Patterson, Murray
+
+Computer Science
+
+Assistant Professor
+mpatterson30@gsu.edu
+
+
+Plis, Sergey
+
+Computer Science, Neuroscience
+
+Professor
+splis@gsu.edu
+
+
+Rahman, Md. Mahfuzur
+
+Computer Science
+
+Lecturer
+mrahman21@gsu.edu
+
+
+Ramesh, Balasubramaniam
+
+Computer Information Systems
+
+Distinguished University Professor, Board of Advisors Professor and Chair
+bramesh@gsu.edu
+
+
+Sadasivuni, Tushara
+
+Computer Science
+
+Lecturer
+ssadasivuni1@gsu.edu
+
+Saghaian, Hossein
+
+Computer Science
+
+Lecturer
+ssaghaeiannejadesfa1@gsu.edu
+
+
+Storey, Veda
+
+Computer Information Systems
+
+Tull Professor of Computer Information Systems
+vstorey@gsu.edu
+
+
+Sunderraman, Raj
+
+Computer Science
+
+Professor and Associate Chair
+rsunderraman@gsu.edu
+
+
+Tamhankar, Parag
+
+Computer Science
+
+Lecturer
+ptamhankar@gsu.edu
+
+
+Tanvir, Farhan
+
+Computer Science
+
+Lecturer
+ftanvir@gsu.edu
+
+
+Tiwari, Chetan
+
+Computer Science, Geosciences
+
+Associate Professor, Director, Center for Disaster Informatics and Computational Epidemiology
+ctiwari@gsu.edu
+
+
+Venkateswara, Hemanth
+
+Computer Science
+
+Assistant Professor
+hvenkateswara@gsu.edu
+
+
+Wan, Lipeng
+
+Computer Science
+
+Assistant Professor
+lwan@gsu.edu
+
+
+Wang, Haoxin
+
+Computer Science
+
+Assistant Professor
+haoxinwang@gsu.edu
+
+Wang, Peng
+
+Computer Science
+
+Lecturer
+wpeng2@gsu.edu
+
+
+Wang, Yue
+
+Computer Science
+
+Assistant Professor
+ywang182@gsu.edu
+
+
+Weeks, Michael
+
+Computer Science, Neuroscience
+
+Associate Professor
+mweeks@cs.gsu.edu
+
+
+Wu, Yubao
+
+Computer Science
+
+Associate Professor
+ywu28@gsu.edu
+
+Xie, Bingyi
+
+Computer Science
+
+Lecturer
+bxie2@gsu.edu
+
+
+Xu, Ping
+
+Computer Science
+
+Assistant Professor
+pxu4@gsu.edu
+
+
+Ye, Dong Hye
+
+Computer Science
+
+Assistant Professor
+dongye@gsu.edu
+
+
+Zelikovsky, Alex
+
+Computer Science
+
+Distinguished University Professor
+azelikovsky@cs.gsu.edu
+
+
+Zhang, Yanqing
+
+Computer Science, Neuroscience
+
+Professor
+yzhang@cs.gsu.edu
+
+
+Zhu, Huadi
+
+Computer Science
+
+Assistant Professor
+hzhu17@gsu.edu
+
+
+Zhu, Ying
+
+Computer Science, Creative Media Industries Institute, Neuroscience
+
+Professor
+yzhu@cs.gsu.edu

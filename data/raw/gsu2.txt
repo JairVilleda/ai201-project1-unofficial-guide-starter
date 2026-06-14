@@ -1,0 +1,157 @@
+Computer science is the systematic exploration of all aspects of computation. Computer science as a discipline seeks to build a scientific foundation for topics such as computer design, computer programming and software, information processing, algorithmic solutions to problems, and the algorithmic process itself. Computer science provides underpinnings for today’s applications in industry, science, government, and business and prepares the foundation for tomorrow’s applications in ubiquitous computing, medical cures for diseases, and instant access to information by everyone.
+
+The B.S. degree program in computer science provides preparation in the fundamental principles and processes of computation and training in applying these principles in application areas in industry, science, government, and business. The student completes a basic group of required courses in the early stages and chooses courses from several concentrations in the later stages to provide for appropriate breadth and depth of knowledge in the discipline.
+
+A B.S. degree in computer science provides a good foundation for advanced studies at the M.S. or Ph.D. level as well as for careers in industry, science, government, and business. To plan the major according to particular goals, students are encouraged to consult with an adviser in the department. Majors who are interested in having a paid work experience related to their area of study should contact the university’s Office of Cooperative Education, which coordinates the university’s cooperative education programs.
+
+The courses are structured, and the department enforces the prerequisites for its courses. Students are urged to check and take the prerequisites for computer science courses and any computer science requirement as listed by their major department/school/institute. Refer any questions to that major department/school/institute or to the Department of Computer Science.
+
+Program Academic Regulations
+As part of the core curriculum, students must receive credit for the two calculus courses: MATH 2211 and MATH 2212. (When counting the number of semester hours in Core IMPACTS and Field of Study areas, only 3 of the 4 credit hours of each calculus course will be counted in the Mathematics & Quantitative Skills Area and/or Technology, Mathematics & Sciences Area. The fourth hour, or the “rollover hour,” will be counted in the Field of Study Area.)
+
+Prerequisites and co-requisites are strictly enforced in all computer science courses.
+
+University Grade-Point Average and Grade Requirements
+Georgia State University undergraduate students must achieve an overall institutional grade-point average of 2.0 and a major GPA of 2.0 in the Major Area and the Minor and Additional Courses Area to receive a bachelor’s degree from the university. Grades of C- can be used to satisfy graduation requirements. However, some courses have prerequisites that require a grade of C or higher. (See section 1460 for additional information.)
+
+Major Eligibility Requirements
+To be eligible for the Bachelor of Science in Computer Science and to enroll in major-level CSC courses (CSC 2720  Data Structures and all 3000- and 4000-level CSC courses), students must fulfill the following requirements:
+
+Complete the following courses with a grade of C or higher on the first attempt:
+CSC 1301 Principles of Computer Science I & CSC 1301L  Principles of Computer Science Laboratory I;
+Either CSC 2510  Theoretical Foundations of Computer Science or MATH 2420  Discrete Mathematics; and
+Either MATH 1113 , MATH 2211 , MATH 2212 , or MATH 2215 .
+Students must earn an average of 2.5 grade points across the three course areas (1, 2, and 3) above. The GPA will be calculated based on the first attempt at the courses designated above at Georgia State University.
+Where more than one course may be taken toward fulfilling the requirement (items a and b above), the first attempt at the first course taken from the list will be used to calculate the major eligibility grade-point average. For example, in item c, if a student takes MATH 1113 before taking MATH 2211, then the first attempt at MATH 1113 will be used for the major eligibility GPA.
+WFs counts as an attempt. Ws do not count as an attempt. Courses retaken using the university Repeat to Replace policy are not counted as first attempts.
+Transfer students who transfer these course(s) into Georgia State, may use the grades in the transferred course(s) to calculate the GPA or they may attempt them once at Georgia State. Courses taken at Georgia State’s Perimeter College count as first-attempts.
+Once students are eligible to take major-level Computer Science courses (CSC 2720 and 3000- and 4000-level CSC courses), they remain eligible to take them as long as they are eligible to enroll at Georgia State University, and they satisfy other Computer Science program requirements. Students must meet any prerequisites for the specific 3000- or 4000-level course.
+
+This requirement applies to students entering or re-entering the university in fall 2017 or thereafter, or to students who choose to follow the Computer Science program requirements in the undergraduate catalog for 2017-18 or thereafter. Students who have selected the Computer Science B.S. major but have not yet fulfilled the major eligibility requirement will be designated as Pre-Computer Science majors.
+
+Students in majors other than Computer Science including those minoring in Computer Science, may enroll in major-level CSC courses as long as they meet any pre-requisites for the specific course.
+
+Degree Requirements
+Core IMPACTS Areas
+Students may select any of the course options listed in each Core IMPACTS area. However, specific recommendations for certain areas are listed below. These recommended courses are not required in the Core IMPACTS areas, but are required for the major. If not taken in the core, then they must be taken in the Field of Study or Additional Courses area.  
+
+Mathematics & Quantitative Skills
+Recommended course
+MATH 1113 - Precalculus 3 Credit Hours or higher level MATH must be taken in the Mathematics & Quantitative Skills Area. A section of MATH 1113 Precalculus that is designated specifically for this major is recommended (see PAWS listing to identify appropriate sections).
+Technology, Mathematics & Sciences
+Recommended course
+MATH 2211 - Calculus of One Variable I 4 Credit Hours (or a higher level mathematics course) (One credit hour counts in the Field of Study Area or as an elective.)
+CSC students may select a lab sequence from any of the options available to science majors.
+Field of Study Area (18 Hours)
+Carry over from Core IMPACTS areas (1-2 Hours)
+Students will carry one additional credit hour over to the Field Electives Area for each 4-credit-hour mathematics course taken in the Mathematics & Quantitative Skills or Technology, Mathematics & Sciences areas.
+MATH 2212 Calculus II
+MATH 2212 - Calculus of One Variable II 4 Credit Hours
+(unless taken in either the Mathematics & Quantitative Skills or Technology, Mathematics & Sciences areas)
+
+Required courses
+CSC 1301 - Principles of Computer Science I 3 Credit Hours
+CSC 1301L - Principles of Computer Science Laboratory I Credit Hours
+CSC 1302 - Principles of Computer Science II 4 Credit Hours
+CSC 1302L - Principles of Computer Science Laboratory II Credit Hours
+CSC 2510 - Theoretical Foundations of Computer Science 3 Credit Hours
+or
+
+MATH 2420 - Discrete Mathematics 3 Credit Hours
+Field Electives
+Select additional elective courses from the following to complete 18 hours in the Field of Study Area:
+
+ACCT 2101 - Principles of Accounting I 3 Credit Hours
+ACCT 2102 - Principles of Accounting II 3 Credit Hours
+ASTR 1010K - Astronomy of the Solar System 4 Credit Hours
+ASTR 1020K - Stellar and Galactic Astronomy 4 Credit Hours
+BIOL 1103 - Introductory Biology I 3 Credit Hours
+BIOL 1103L - Introductory Biology I Lab 1 Credit Hours
+BIOL 1104 - Introductory Biology II 3 Credit Hours
+BIOL 1104L - Introductory Biology II Laboratory 1 Credit Hours
+BIOL 2107 - Principles of Biology I 3 Credit Hours
+BIOL 2107L - Principles of Biology I Laboratory 1 Credit Hours
+BIOL 2108 - Principles of Biology II 3 Credit Hours
+BIOL 2108L - Principles of Biology II Laboratory 1 Credit Hours
+CHEM 1211 - Principles of Chemistry I 3 Credit Hours
+CHEM 1211L - Principles of Chemistry I Laboratory 1 Credit Hours
+CHEM 1212 - Principles Of Chemistry II 3 Credit Hours
+CHEM 1212L - Principles of Chemistry II Laboratory 1 Credit Hours
+CHEM 2400 - Organic Chemistry I 3 Credit Hours
+ 
+
+CSC 2920 - Ethical and Social Issues in Computing 3 Credit Hours
+or
+
+PHIL 2920 - Ethics of Computing 3 Credit Hours
+ 
+
+DSCI 1301 - Principles of Programming for Data Science I 4 Credit Hours
+DSCI 1302 - Principles of Programming for Data Science II 4 Credit Hours
+ECON 2105 - Principles of Macroeconomics 3 Credit Hours
+ECON 2106 - Principles of Microeconomics 3 Credit Hours
+GEOL 1121 - Introductory Geology I 3 Credit Hours
+GEOL 1121L - Introductory Geology I Lab 1 Credit Hours
+GEOL 1122 - Introductory Geology II 3 Credit Hours
+GEOL 1122L - Introductory Geology II Laboratory 1 Credit Hours
+MATH 2215 - Multivariate Calculus 4 Credit Hours
+PHIL 1010 - Critical Thinking 2 Credit Hours
+PHYS 2211K - Principles of Physics I 4 Credit Hours
+PHYS 2212K - Principles of Physics II 4 Credit Hours
+SCOM 1500 - Public Speaking 3 Credit Hours
+SCOM 2300 - Business and Professional Communication 3 Credit Hours
+World language at the 2001 or 2002 level
+Courses ending in K
+All courses above ending in K are commonly offered as separate lecture and lab (L) courses as well. The combined (K) courses and separate lecture and lab (L) courses cover the same subject matter and are considered equivalent courses.
+Any credit hours exceeding 18 earned to complete the Field of Study Area requirements will count toward elective hours.
+Major Area (48 Hours)
+MATH 2641 - Linear Algebra I 3 Credit Hours
+MATH 3020 - Applied Probability and Statistics for Computer Science 3 Credit Hours
+CTW Requirement (4 Hours)
+CSC 3350 - Software Development-CTW 4 Credit Hours
+Computer Science Requirements (22 Hours)
+CSC 2720 - Data Structures 3 Credit Hours
+CSC 3210 - Computer Organization and Programming 4 Credit Hours *
+CSC 3320 - System-Level Programming 3 Credit Hours
+ 
+
+CSC 4320 - Operating Systems 4 Credit Hours
+or
+
+CSC 4330 - Programming Language Concepts 4 Credit Hours
+ 
+
+(  CSC 4351 - Capstone Senior Design I-CTW 2 Credit Hours
+and
+
+CSC 4352 - Capstone Senior Design II-CTW 2 Credit Hours )
+or
+
+CSC 4350 - Software Engineering - CTW 4 Credit Hours
+ 
+
+CSC 4520 - Design and Analysis of Algorithms 4 Credit Hours
+CSC Elective Courses
+For a total of sixteen (16) hours, select at least four courses from the CSC elective courses at the 3000- or 4000-level.
+
+Note: Up to 4 credit hours from CSC 4870, CSC 4880, CSC 4900, CSC 4980, and CSC 4982  may count towards the Major Area.
+
+Additional Courses Area (12 Hours)
+Twelve hours of additional courses taken at the 2000-4000 level (12).
+Students earning a B.S. in the Department of Computer Science are not required to complete a minor.
+Additional courses must be taken as electives to complete a minimum of 120 semester hours. 
+Students completing CSC 3900 must count it in the Additional Courses area. The course does not count in the Major Area.
+
+Additional Opportunities
+Certificate in Cyber Security
+See Cyber Security, Undergraduate Certificate section.
+
+Certificate in Data Science
+See Data Science, Undergraduate Certificate section.
+
+Cooperative Education and Internship Programs
+The department participates in the University’s Cooperative Education program, in which students rotate between being a full-time student and working in paid, full-time professional positions. Details are available on the department’s website. The department also encourages students to seek out relevant internships to enhance their preparation for careers related to Computer Science. We offer elective credit, to count towards the Minor and Additional Courses Area requirements, subject to department approval.
+
+Graduation with Distinction in the Major
+This unit offers undergraduate students with the opportunity to earn the designation of graduation with distinction in the major. Please contact the undergraduate director for the specific criteria for this honor.
+

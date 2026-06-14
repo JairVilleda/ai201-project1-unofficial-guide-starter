@@ -27,8 +27,15 @@ I chose the domain of student experiences and reviews about Georgia State Univer
 | 6 | Reditt | Best CS professors at GSU| https://www.reddit.com/r/GaState/comments/1j2qjrw/best_cs_profs_at_gsu/ |
 | 7 | Reditt | GSU CS program review| https://www.reddit.com/r/GaState/comments/p02fn2/how_good_is_the_cs_program_at_gastate/ |
 | 8 | RateMyProfessors| Rates CS professors at GSU| https://www.ratemyprofessors.com/search/professors/360?q=*&did=11 |
-| 9 | Coursicle| CS course reviews|https://www.coursicle.com/gsu/courses/CSC/ |
-| 10 | Quora| Easy classes for CS program | https://www.quora.com/I-am-doing-my-undergrad-in-Georgia-State-University-currently-in-my-sophomore-year-majoring-in-computer-science-I-need-12-credits-from-any-2000-4000-level-classes-Can-someone-please-recommend-some-easy-general-2000 |
+| 9 | Quora| Easy classes for CS program | https://www.quora.com/I-am-doing-my-undergrad-in-Georgia-State-University-currently-in-my-sophomore-year-majoring-in-computer-science-I-need-12-credits-from-any-2000-4000-level-classes-Can-someone-please-recommend-some-easy-general-2000 |
+| 10 | RateMyProfessors | Professor Roya Hosseini | https://www.ratemyprofessors.com/professor/2723447 |
+| 11 | RateMyProfessors | Professor Tushara Sadasivuni| https://www.ratemyprofessors.com/professor/2317655 |
+| 12 | RateMyProfessors | Professor Faris Hawamdeh | https://www.ratemyprofessors.com/professor/2927602 |
+| 13 | RateMyProfessors | Professor William Johnson | https://www.ratemyprofessors.com/professor/2329806 |
+| 14 | RateMyProfessors | Professor Rajshekhar Sunderraman | https://www.ratemyprofessors.com/professor/2614203 |
+| 15 | RateMyProfessors | Professor Micheal Week | https://www.ratemyprofessors.com/professor/418488 |
+| 16 | RateMyProfessors | Professor David James | https://www.ratemyprofessors.com/professor/3007536 |
+| 17 | RateMyProfessors | Professor Louis Henry | https://www.ratemyprofessors.com/professor/458011 |
 
 ---
 
@@ -123,7 +130,10 @@ If I were deploying this system for real users and cost was not a concern, I wou
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+I will use Claude Code in VS Code to help build the ingestion and chunking pipeline. I’ll give it my planning.md (chunking strategy + data sources) and ask it to write Python code to load text from URLs using requests and BeautifulSoup, clean the content, and split it into chunks. I expect it to produce functions for loading documents, cleaning text, and chunking. I’ll verify by checking that the output is readable, consistent, and not breaking important sentences.
 
 **Milestone 4 — Embedding and retrieval:**
+I’ll use Claude Code to implement embeddings and the ChromaDB vector store using sentence-transformers (all-MiniLM-L6-v2) as required. I expect it to generate code for embedding chunks, storing them in ChromaDB, and retrieving the top-k relevant chunks for a query. I’ll test it by running sample questions and checking if the retrieved chunks actually match the query.
 
 **Milestone 5 — Generation and interface:**
+I’ll use Claude Code to help build the final RAG step using Groq (llama-3.3-70b-versatile). I’ll provide the retrieval output and require that the model only uses retrieved chunks in its response. I expect it to create a prompt template, connect to the Groq API, and build a simple interface for querying. I’ll verify by checking that answers stay grounded in the retrieved context and don’t add outside information.

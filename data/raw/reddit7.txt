@@ -1,0 +1,24 @@
+How good is the CS program at GaState?
+Hi there! I am a student planning to transfer to GaState and I wanted to know what is the Computer Science project like, whether it's good or not and what are the professors like? Looking forward to reading your replies :)
+
+
+I’m about to start my last semester at Gstate as a cs major. I’ve enjoyed it so far. I sort of wish it was more rigorous but overall it has been pretty good. I feel like it’s what you make of it. You can work super hard, perfect your code and learn a lot, or you can slack off, go on chegg and slide by. If I were to start from the beginning I would probably choose to go to every gsu hackathon that was offered and take advantage of the many opportunities Jamie Hayes will present you in your outlook account. I know some people that have gained a lot of great job opportunities this way. Overall it’s a pretty solid school
+
+That sounds amazing! What are the professors like and what is the CS Dept. like is it a collaborative or competitive environment ?
+
+Honestly I’ve found the professors are a mixed bag. I’ve had some that I’ve really liked and other I’ve thought were alright. I haven’t had one so far that I’ve truly disliked. Henry Louis’s class really got me into web development, and even tho I had the class online it was super collaborative with lots of group work (which I found fun). A lot of the classes you take further down the line typically have more group work (at least in my experience). I would definitely suggest using “rate my professor” to find the better teachers, and do the best you can to get into those classes
+
+Op please don’t be like me by going on chegg and sliding by. I’m in my senior year and I regret it, I’m going to be playing catch up until I graduate.
+
+I’d also recommend to get involved with stuff like research and your own projects. Take the time to build some really cool stuff while you’re here. There are some incredible resources GSU offers. Also, if you don’t have it already, get yourself the GitHub student developer pack and a lot of that shit will come in handy at some point. Also, take advantage of student credits/free stuff like software options from IntelliJ or a version control software called GitKraken. Additionally, find time for classes about some niche things you find interesting like data visualization or AI.
+
+I love it here. Since GSU isn’t as saturated as tech I’ve noticed that it’s a bit easier to get internships since some companies are actively trying to hire from here. Professors are pretty good except for a few. What I love about the CS curriculum here is that it’s more technical and practical as opposed to theoretical. You spend more time building projects and solving problems instead of just doing proofs. Let’s be honest, no ones gona have to write dijkstra algorithm on the job.
+
+GSU CS Grad here!
+
+I thought it was awesome, while the coursework may not be as “prestigious” or “rigorous” as somewhere like GA Tech, it’s still an incredibly solid program. And if you dedicate yourself to learning each class, rather than just doing the minimum to get through the class, you’re almost guaranteed opportunities upon graduation. My last semester I had recruiters reaching out daily on LinkedIn, and ended up taking a data science job making great money right out of school, and it’s really cool work :)
+
+That sounds great! What were the professors like? Were they helpful?
+
+Mostly great! Most of the time if you have specific questions the professor and/or TA is super helpful. Som of the professors were a little boring, but honestly most of the professors were really inspiring and I learned a lot.
+

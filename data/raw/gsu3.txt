@@ -1,0 +1,112 @@
+3210 Department of Computer Science
+7th floor, 25 Park Place Building
+404-413-5700
+cs.gsu.edu
+
+Armin R. Mikler, Chair
+Xiaolin Hu, Director of Undergraduate Studies
+
+Interdisciplinary Programs
+Data Science and Geographic Information Sciences, B.I.S. 
+
+Programs
+Bachelor’s
+Computer Science, B.S.
+Data Science, B.S.
+Information Technology, B.I.T.
+Certificate
+Cyber Security, Undergraduate Certificate
+Data Science, Undergraduate Certificate
+Dual Degree
+Computer Science, B.S.-M.S.
+Minor
+Computer Science, Minor
+Courses
+Computer Science
+CSC 1301 - Principles of Computer Science I
+CSC 1301L - Principles of Computer Science Laboratory I
+CSC 1302 - Principles of Computer Science II
+CSC 1302L - Principles of Computer Science Laboratory II
+CSC 2510 - Theoretical Foundations of Computer Science
+CSC 2720 - Data Structures
+CSC 3210 - Computer Organization and Programming
+CSC 3320 - System-Level Programming
+CSC 3350 - Software Development-CTW
+CSC 3900 - Technical Interview Preparation I
+CSC 4110 - Introduction to Embedded Systems Laboratory
+CSC 4120 - Introduction to Robotics
+CSC 4210 - Computer Architecture
+CSC 4220 - Computer Networks
+CSC 4221 - Mobile Computing and Wireless Network Security
+CSC 4222 - Fundamentals of Cybersecurity
+CSC 4223 - Privacy
+CSC 4224 - Ethical Hacking
+CSC 4226 - Secure Software Engineering
+CSC 4227 - Network Security
+CSC 4228 - Security in Internet of Things
+CSC 4250 - Malware Analysis and Defense
+CSC 4251 - Computer Forensics
+CSC 4260 - Digital Image Processing
+CSC 4310 - Parallel and Distributed Computing
+CSC 4311 - Cloud Computing
+CSC 4320 - Operating Systems
+CSC 4330 - Programming Language Concepts
+CSC 4340 - Compilers
+CSC 4350 - Software Engineering - CTW
+CSC 4351 - Capstone Senior Design I-CTW
+CSC 4352 - Capstone Senior Design II-CTW
+CSC 4360 - Mobile Application Development
+CSC 4370 - Web Programming
+CSC 4510 - Automata
+CSC 4520 - Design and Analysis of Algorithms
+CSC 4610 - Numerical Analysis I
+CSC 4620 - Numerical Analysis II
+CSC 4630 - Matlab
+CSC 4650 - Introduction to Bioinformatics
+CSC 4710 - Database Systems
+CSC 4720 - Human-Computer Interaction
+CSC 4730 - Data Visualization
+CSC 4740 - Data Mining
+CSC 4750 - Semantic Web
+CSC 4760 - Big Data Programming
+CSC 4780 - Fundamentals of Data Science
+CSC 4810 - Artificial Intelligence
+CSC 4820 - Interactive Computer Graphics
+CSC 4821 - Fundamentals of Game Design
+CSC 4822 - Mobile Game Development
+CSC 4830 - Extended Reality Engineering
+CSC 4840 - Advanced Computer Graphics Programming
+CSC 4841 - Computer Animation
+CSC 4850 - Machine Learning
+CSC 4851 - Introduction to Deep Learning
+CSC 4870 - Honors Thesis I
+CSC 4880 - Honors Thesis II
+CSC 4900 - Technical Interview Preparation II
+CSC 4940 - Computer Science Internship
+CSC 4980 - Topics in Computer Science
+CSC 4982 - Undergraduate Research in Computer Science
+CSC 4990 - Interdisciplinary Topics
+CSC 4995 - Directed Readings BIS-CTW
+CSC 4997 - Student Research and Teaching Support
+CSC 4998 - Selected Topics
+CSC 4999 - Directed Readings
+Data Science
+DATA 1501 - Introduction to Data Science
+DSCI 1301 - Principles of Programming for Data Science I
+DSCI 1302 - Principles of Programming for Data Science II
+DSCI 2720 - Data Structures in Python for Data Science
+DSCI 4311 - Cloud Computing
+DSCI 4350 - Data Science Capstone
+DSCI 4351 - Capstone Senior Design I-CTW
+DSCI 4352 - Capstone Senior Design II-CTW
+DSCI 4370 - Web Programming
+DSCI 4710 - Database Systems
+DSCI 4730 - Data Visualization
+DSCI 4740 - Data Mining
+DSCI 4750 - Semantic Web
+DSCI 4760 - Big Data Programming
+DSCI 4780 - Fundamentals of Data Science
+DSCI 4810 - Artificial Intelligence
+DSCI 4850 - Machine Learning
+DSCI 4851 - Fundamentals of Deep Learning
+DSCI 4940 - Data Science Internship
