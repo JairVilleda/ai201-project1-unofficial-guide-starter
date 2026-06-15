@@ -1,36 +1,19 @@
-"""Retrieval for the Unofficial Guide RAG pipeline.
-
-STEP 6 of the pipeline: given a natural-language question, find the chunks in
-ChromaDB whose meaning is closest to the question. This is the "R" in RAG --
-it selects the context that a generator would later use.
-
-This file does NOT generate answers. It only embeds the query, searches the
-vector store, and reports/evaluates what comes back.
-
-It reuses existing pipeline pieces:
-    load_model()    -> the SAME SentenceTransformer used to build the index
-    "gsu_cs_chunks" -> the persistent ChromaDB collection we already populated
-"""
+"""Retrieve the chunks most relevant to a query, plus an evaluation harness."""
 
 import chromadb
 
 from src.embed import load_model
 
-# Must match what src/vector_store.py used, or retrieval would hit the wrong
-# database / collection.
+# Must match what vector_store.py wrote.
 PERSIST_DIR = "chroma_db"
 COLLECTION_NAME = "gsu_cs_chunks"
 
-# The query must be embedded by the SAME model that produced the stored
-# vectors, otherwise the numbers live in different "spaces" and distances are
-# meaningless. We cache the model at module level so repeated retrieve() calls
-# don't reload it (loading is the slow part).
+# Cached at module level so repeated retrieve() calls don't reload the model.
 _model = None
 _collection = None
 
 
 def _get_model():
-    """Lazily load and cache the embedding model."""
     global _model
     if _model is None:
         _model = load_model()
@@ -38,50 +21,33 @@ def _get_model():
 
 
 def _get_collection():
-    """Lazily open the persistent ChromaDB collection and cache it.
-
-    We use get_collection (not get_or_create) because the collection must
-    already exist -- this stage reads, it never builds the index.
-    """
+    # get_collection (not get_or_create): the index must already exist.
     global _collection
     if _collection is None:
-        # PersistentClient points at the on-disk database we wrote earlier.
         client = chromadb.PersistentClient(path=PERSIST_DIR)
         _collection = client.get_collection(name=COLLECTION_NAME)
     return _collection
 
 
 def retrieve(query: str, k: int = 5):
-    """Return the top-k chunks most relevant to `query`.
+    """Return the top-k chunks for `query`, closest first.
 
-    Steps:
-      1. Embed the query with the same model used for the chunks.
-      2. Ask ChromaDB for the k nearest stored vectors.
-      3. Repackage the results into a simple list of dicts.
-
-    Returns:
-        A list of dicts: {"distance", "source", "chunk_index", "text"},
-        ordered from most relevant (smallest distance) to least.
+    Each hit is {"distance", "source", "chunk_index", "text"}.
     """
     model = _get_model()
     collection = _get_collection()
 
-    # encode() expects a list and returns a 2D array; we pass [query] and take
-    # the resulting single embedding. .tolist() converts numpy -> plain list,
-    # which is what ChromaDB's query API accepts.
+    # The query must use the same model as the stored vectors, or distances
+    # are meaningless. tolist() because Chroma wants plain lists, not numpy.
     query_embedding = model.encode([query]).tolist()
 
-    # collection.query finds the nearest neighbors to our query vector.
-    # n_results=k limits how many chunks come back. We ask for documents,
-    # metadatas, and distances so we can print and evaluate each hit.
     results = collection.query(
         query_embeddings=query_embedding,
         n_results=k,
         include=["documents", "metadatas", "distances"],
     )
 
-    # ChromaDB returns results as lists-of-lists (one inner list per query).
-    # We sent one query, so we read index [0] of each field and zip them.
+    # Chroma returns one inner list per query; we sent one, so read index [0].
     hits = []
     for distance, document, metadata in zip(
         results["distances"][0],
@@ -99,15 +65,9 @@ def retrieve(query: str, k: int = 5):
     return hits
 
 
-# --- Evaluation harness -------------------------------------------------------
-#
-# Each question lists the expected TOPICS from planning.md. For every topic we
-# give a few lowercase keyword variants. A topic counts as "found" if ANY of
-# its keywords appears in the combined retrieved text.
-#
-# IMPORTANT: this is a keyword heuristic to make eyeballing faster -- it is NOT
-# a semantic judge. Read the actual chunk text before trusting the Yes/No.
-
+# Evaluation questions from planning.md. Each topic lists keyword variants;
+# a topic is "found" if any keyword appears in the retrieved text. This is a
+# rough keyword check to speed up review, not a semantic judge.
 EVAL = [
     {
         "query": "What do students say about the quality of Georgia State "
@@ -165,11 +125,7 @@ EVAL = [
 
 
 def evaluate_topics(topics, hits):
-    """Split expected topics into (found, missing) by keyword presence.
-
-    Combines all retrieved chunk text into one lowercase blob, then checks each
-    topic's keyword list against it.
-    """
+    """Split topics into (found, missing) by keyword presence in the hits."""
     blob = " ".join(h["text"] for h in hits).lower()
     found, missing = [], []
     for topic, keywords in topics.items():
@@ -189,7 +145,6 @@ def run_query(query, topics=None, k=5):
     print(query)
     print()
 
-    # Print each retrieved chunk in the required format.
     for i, h in enumerate(hits, start=1):
         print(f"Result {i}")
         print(f"Distance:    {h['distance']:.4f}")
@@ -199,10 +154,8 @@ def run_query(query, topics=None, k=5):
         print(h["text"])
         print("-" * 50)
 
-    # Topic-level relevance summary.
     if topics:
         found, missing = evaluate_topics(topics, hits)
-        # "Relevant" = at least one expected topic surfaced in the results.
         relevant = "Yes" if found else "No"
         print("\nSUMMARY")
         print(f"Retrieved chunks appear relevant? {relevant}")
@@ -216,7 +169,6 @@ def run_query(query, topics=None, k=5):
 
 
 def main():
-    # Run all five evaluation questions from planning.md.
     for item in EVAL:
         run_query(item["query"], topics=item["topics"], k=5)
 

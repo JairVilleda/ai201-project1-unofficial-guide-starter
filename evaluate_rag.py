@@ -1,9 +1,4 @@
-"""End-to-end evaluation of the GSU CS Advisor RAG pipeline.
-
-Runs a fixed set of questions through the existing ask() function and prints
-each answer, its sources, and a few automatic observations. It does NOT modify
-retrieval, generation, or attribution -- it only calls ask() and inspects the
-returned dict.
+"""Run the evaluation questions through ask() and print answers + observations.
 
 Run from the project root:
     python evaluate_rag.py
@@ -11,11 +6,10 @@ Run from the project root:
 
 from src.rag import ask
 
-# The exact sentence the system must return when it cannot answer. We compare
-# against this verbatim to check the out-of-scope refusal.
+# The exact refusal sentence we check the out-of-scope question against.
 REFUSAL = "I don't have enough information on that."
 
-# Each item: the question, and whether we EXPECT the system to refuse it.
+# Each question, flagged with whether we expect a refusal.
 QUESTIONS = [
     {"q": "What do students say about the quality of Georgia State "
           "University's Computer Science program?", "out_of_scope": False},
@@ -39,7 +33,6 @@ def run_one(item):
     answer = result["answer"]
     sources = result["sources"]
 
-    # --- required output block ---
     print("=" * 50)
     print("Question:")
     print(question)
@@ -52,24 +45,20 @@ def run_one(item):
         print(f"- {source}")
     print()
 
-    # --- observations ---
     is_refusal = answer.strip() == REFUSAL
     cited = len(sources) > 0
 
     print("Observations:")
     if item["out_of_scope"]:
-        # For the out-of-scope question, the ONLY correct behavior is the exact
-        # refusal sentence. Note: retrieval still returns 5 nearest chunks, so
-        # `sources` is non-empty even on a refusal -- those chunks were fetched
-        # but NOT used, since the model correctly declined to answer.
+        # Retrieval still returns 5 chunks here, so sources is non-empty even
+        # though the model correctly refused to use them.
         passed = "PASS" if is_refusal else "FAIL"
         print(f"- Correctly returned the exact refusal sentence? {passed}")
         if not is_refusal:
             print("    (Expected exactly: \"" + REFUSAL + "\")")
         print("- Note: sources shown were retrieved but not used (answer refused).")
     else:
-        # For in-scope questions: grounded answer + at least one source.
-        grounded = not is_refusal  # heuristic: it produced a real answer
+        grounded = not is_refusal
         print(f"- Answer appears grounded (not a refusal)? "
               f"{'Yes' if grounded else 'No'}")
         print(f"- Cited at least one source? {'Yes' if cited else 'No'}")

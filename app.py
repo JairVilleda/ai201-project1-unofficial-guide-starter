@@ -1,8 +1,4 @@
-"""Gradio interface for the GSU CS Advisor RAG system.
-
-This is the THIN UI layer. It contains no retrieval, embedding, generation, or
-attribution logic -- it only collects a question, hands it to the existing
-ask() function, and displays what comes back.
+"""Gradio interface for the GSU CS Advisor.
 
 Run from the project root:
     python app.py
@@ -17,7 +13,6 @@ DESCRIPTION = (
     "professors, and course requirements."
 )
 
-# Three questions from the evaluation plan, shown as clickable examples.
 EXAMPLES = [
     "What do students say about the quality of Georgia State University's "
     "Computer Science program?",
@@ -29,14 +24,7 @@ EXAMPLES = [
 
 
 def handle_query(question):
-    """Bridge between the UI and the RAG pipeline.
-
-    Takes the raw textbox string, calls ask(), and formats the result for the
-    two output textboxes. Returns a (answer, sources) tuple matching the
-    outputs list wired up below.
-    """
-    # Friendly guard for an empty / whitespace-only question, so we don't run
-    # the pipeline on nothing.
+    """Call ask() and format the result for the answer and sources boxes."""
     if not question or not question.strip():
         return "Please enter a question to get started.", ""
 
@@ -45,12 +33,10 @@ def handle_query(question):
     return result["answer"], sources
 
 
-# Blocks gives us explicit control over layout and wiring (vs. a one-liner UI).
 with gr.Blocks(title="GSU CS Advisor") as demo:
     gr.Markdown("# GSU CS Advisor")
     gr.Markdown(DESCRIPTION)
 
-    # Input: the user's question.
     question_box = gr.Textbox(
         label="Your question",
         placeholder="Ask about GSU CS professors, courses, or requirements...",
@@ -58,17 +44,12 @@ with gr.Blocks(title="GSU CS Advisor") as demo:
     )
     ask_button = gr.Button("Ask", variant="primary")
 
-    # Outputs: the grounded answer and the list of source files.
     answer_box = gr.Textbox(label="Answer", lines=8)
     sources_box = gr.Textbox(label="Sources", lines=4)
 
-    # Clickable example questions populate the question box.
     gr.Examples(examples=EXAMPLES, inputs=question_box)
 
-    # Wire BOTH triggers to the same handler:
-    #   - clicking the Ask button
-    #   - pressing Enter inside the question textbox (.submit)
-    # Both read question_box and write to [answer_box, sources_box].
+    # Answer on button click or on Enter in the textbox.
     ask_button.click(
         fn=handle_query, inputs=question_box, outputs=[answer_box, sources_box]
     )
